@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/black"
+    >
+
+    <ImageView
+        android:id="@+id/ivFood"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/ivFood"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tvFoodType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Type"
+            android:textSize="20sp"
+            android:textColor="@color/yellow"
+            />
+
+        <TextView
+            android:id="@+id/tvFoodIngredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/tvFoodPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
